@@ -1,8 +1,20 @@
 import "./Home.css";
-export default function Home() {
+import { useRef } from "react";
+
+const App = () => {
+  const inputRef = useRef(null);
+
+  function handleClick() {
+    console.log(inputRef.current.value);
+  }
+
   return (
-    <div className="home">
-      <a>text</a>
+    <div>
+      <input ref={inputRef} type="text" id="message" name="message" />
+
+      <button onClick={handleClick}>Log message</button>
     </div>
   );
-}
+};
+
+export default App;
