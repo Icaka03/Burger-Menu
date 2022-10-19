@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AACE,KADG,CACH,CAAC,CAAC;EACA,KAAK,EAAE,GAAG;CACX",
-    "sources": [
-        "Home.scss"
-    ],
-    "names": [],
-    "file": "Home.css"
-}
